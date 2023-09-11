@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.lab-name {
+  font-size: larger;
+}
+
+main ul {
+  list-style-type: disc;
+  margin-left: 1%;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
