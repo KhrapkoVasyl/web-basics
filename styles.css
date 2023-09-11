@@ -16,3 +16,7 @@ main ul {
   list-style-type: disc;
   margin-left: 1%;
 }
+
+main ul li {
+  margin-bottom: 10px;
+}
