@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.table-task-container,
+.table-container,
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  max-width: 300px;
+  width: 100%;
+}
+
+.form p {
+  font-size: 1.3em;
+}
+
+.form,
+.form > *,
+.button-container input {
+  padding: 5px;
+  font-size: 1.15em;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.input-container input {
+  width: 60%;
+  font-size: 1em;
+}
+
+.button-container input {
+  width: 100%;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.button-container input:hover {
+  transition: background-color 0.5s ease;
+  background-color: greenyellow !important;
+  color: #000;
+}
+
+.table-task-container {
+  border-left: 4px solid black;
+  font-size: 1.5em;
+  height: 100%;
+}
+
+.invalid-input {
+  border: 2px dashed red;
+  background-color: rgb(241, 165, 165);
+}
+
+.table-cell-color-input {
+  width: 360px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+table {
+  table-layout: fixed;
+  width: 360px;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  border: 0.125em solid black;
+}
+
+td {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+}

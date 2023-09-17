@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Храпко Василь, КПІ, ФІОТ, web-basics, Lab2, html, css, js, events, regex"
+    />
+    <meta
+      name="description"
+      content="ЛР2 з дисципліни «Основи Web-технологій». Тема «JavaScript. Події. Регулярні вирази».
+      Виконав студент Храпко Василь, група ІП-04"
+    />
+    <title>Основи Web-технологій, Lab2, Храпко В.А., Група ІП-04, Варіант 72</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script defer src="./scripts/form.js"></script>
+    <script defer src="./scripts/table.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <form class="form">
+          <p class="form-title">Форма для заповнення:</p>
+          <div class="input-container">
+            <label for="fullName">ПІБ:</label>
+            <input
+              placeholder="ПІБ"
+              type="text"
+              name="fullName"
+              id="fullName"
+            />
+          </div>
+          <div class="input-container">
+            <label for="ID_сard">ID-card:</label>
+            <input
+              placeholder="ID-card"
+              type="text"
+              name="ID_сard"
+              id="ID_сard"
+            />
+          </div>
+          <div class="input-container">
+            <label for="dateOfBirthday">Дата<br>народж.:</label>
+            <input
+              placeholder="Дата народження"
+              type="text"  
+              name="dateOfBirthday"
+              id="dateOfBirthday"
+            />
+          </div>
+          <div class="input-container">
+            <label for="address">Адреса:</label>
+            <input placeholder="Адреса" type="text" name="address" id="address" />
+          </div>
+          <div class="input-container">
+            <label for="email">e-mail:</label>
+            <input placeholder="e-mail" type="text" name="email" id="email" />
+          </div>
+          <div class="button-container" class="input-container">
+            <input type="submit" value="Підтвердити"></input>
+          </div>
+        </form>
+      </div>
+      <div class="table-task-container">
+        <input type="color" class="table-cell-color-input"></input>
+        <div class="table-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
