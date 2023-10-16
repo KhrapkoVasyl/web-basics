@@ -1,0 +1,39 @@
+.content-container {
+  margin-top: 20px;
+  border: 2px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  height: 30px;
+  font-size: 18px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgba(225, 20, 252, 0.851);
+  color: white;
+  border-color: rgba(225, 20, 252, 0.851);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

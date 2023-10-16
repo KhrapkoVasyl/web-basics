@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  font-family: Verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  background-color: rgba(228, 115, 243, 0.771);
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  height: 2%;
+  display: flex;
+}
+
+.header-container header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav p {
+  font-size: 1.5em;
+  text-align: center;
+}

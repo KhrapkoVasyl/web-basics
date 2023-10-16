@@ -1,0 +1,15 @@
+{
+  "name": "quick-chatter-app",
+  "version": "1.0.0",
+  "description": "Simple quick chatter app, lab4 of web technologies course",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Vasyl Khrapko (khrapko2002@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}
